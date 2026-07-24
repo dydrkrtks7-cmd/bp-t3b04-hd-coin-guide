@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아현 클럽 초보 안내 - 데이터로 읽는 클럽 입문자 지침</title>
+<meta name="description" content="아현 지역 클럽 초보자를 위한 체계적 안내. 장르별 특징, 입장 요건, 주의사항 등 실질적인 정보만으로 구성된 데이터 기반 가이드입니다.">
+<meta name="keywords" content="아현 클럽, 클럽 초보, 클럽 안내, 아현 나이트, 클럽 초보 가이드, 클럽 선택, 클럽 이용법">
+<link rel="canonical" href="https://ahyeon-club-note.nrb-apgujeong-guide.xyz">
+<meta property="og:title" content="아현 클럽 초보 안내 - 데이터로 읽는 클럽 입문자 지침">
+<meta property="og:description" content="장르별 분석, 입장 조건 비교, 안전 수칙 등 아현 클럽 입문에 필요한 모든 정보를 정밀하게 정리했습니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ahyeon-club-note.nrb-apgujeong-guide.xyz">
+<style>
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: local('Spoqa Han Sans Neo Bold'),
+         url(//spoqa.github.io/3-spoqa-han-sans/fonts/SpoqaHanSans-Bold.woff2) format('woff2'),
+         url(//spoqa.github.io/3-spoqa-han-sans/fonts/SpoqaHanSans-Bold.woff) format('woff'),
+         url(//spoqa.github.io/3-spoqa-han-sans/fonts/SpoqaHanSans-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local('Spoqa Han Sans Neo Regular'),
+         url(//spoqa.github.io/3-spoqa-han-sans/fonts/SpoqaHanSans-Regular.woff2) format('woff2'),
+         url(//spoqa.github.io/3-spoqa-han-sans/fonts/SpoqaHanSans-Regular.woff) format('woff'),
+         url(//spoqa.github.io/3-spoqa-han-sans/fonts/SpoqaHanSans-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: local('Spoqa Han Sans Neo Thin'),
+         url(//spoqa.github.io/3-spoqa-han-sans/fonts/SpoqaHanSans-Thin.woff2) format('woff2'),
+         url(//spoqa.github.io/3-spoqa-han-sans/fonts/SpoqaHanSans-Thin.woff) format('woff'),
+         url(//spoqa.github.io/3-spoqa-han-sans/fonts/SpoqaHanSans-Thin.ttf) format('truetype');
+}
+:root {
+    --color-primary: #1a1a1a;
+    --color-secondary: #ffffff;
+    --color-accent: #e63946;
+    --color-background: #0a0a0a;
+    --color-surface: #151515;
+    --color-text: #dcdcdc;
+    --color-text-muted: #888888;
+    --color-border: #333333;
+    --font-family-base: 'Spoqa Han Sans Neo', sans-serif;
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+    --border-radius: 8px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: var(--font-family-base);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+}
+.m-ico-88gs {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background-color: var(--color-surface);
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.m-ico-88gs:hover {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-secondary);
+}
+.n-card-ptn3 {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+    transition: border-color 0.3s ease;
+}
+.n-card-ptn3:hover {
+    border-color: var(--color-accent);
+}
+.n-nav-f2uc {
+    background-color: var(--color-background);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--spacing-md) var(--spacing-xl);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+.r-wrap-s4ur {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    padding: var(--spacing-xl);
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.r-wrap-s4ur-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+.r-wrap-s4ur-item:hover {
+    transform: translateY(-2px);
+}
+.r-ico-vtu5 {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 57, 70, 0.1);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--spacing-sm);
+}
+.r-ico-vtu5-content {
+    font-size: 2rem;
+    color: var(--color-accent);
+}
+.m-wr {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-xl);
+    width: 100%;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-md);
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 2px solid var(--color-accent);
+    display: inline-block;
+}
+h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+p {
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text);
+}
+.text-accent {
+    color: var(--color-accent);
+    font-weight: 700;
+}
+.text-muted {
+    color: var(--color-text-muted);
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.gap-sm { gap: var(--spacing-sm); }
+.gap-md { gap: var(--spacing-md); }
+.gap-lg { gap: var(--spacing-lg); }
+.mt-md { margin-top: var(--spacing-md); }
+.mt-lg { margin-top: var(--spacing-lg); }
+.mb-md { margin-bottom: var(--spacing-md); }
+.mb-lg { margin-bottom: var(--spacing-lg); }
+.py-xl { padding-top: var(--spacing-xl); padding-bottom: var(--spacing-xl); }
+.px-xl { padding-left: var(--spacing-xl); padding-right: var(--spacing-xl); }
+.bg-surface { background-color: var(--color-surface); }
+.border-bottom { border-bottom: 1px solid var(--color-border); }
+.list-none {
+    list-style: none;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+.btn-primary {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-secondary);
+}
+.btn-primary:hover {
+    background-color: #c1121f;
+    border-color: #c1121f;
+}
+.hero-section {
+    position: relative;
+    padding: var(--spacing-xxl) var(--spacing-xl);
+    text-align: center;
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+}
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, var(--color-background) 0%, var(--color-surface) 50%, var(--color-background) 100%);
+    z-index: 0;
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.nav-links {
+    display: flex;
+    gap: var(--spacing-md);
+    overflow-x: auto;
+    padding: var(--spacing-md) 0;
+}
+.nav-links a {
+    color: var(--color-text-muted);
+    text-decoration: none;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+}
+.nav-links a:hover, .nav-links a.active {
+    color: var(--color-accent);
+    background-color: rgba(230, 57, 70, 0.1);
+}
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--spacing-md);
+}
+.data-table th, .data-table td {
+    padding: var(--spacing-md);
+    border: 1px solid var(--color-border);
+    text-align: left;
+}
+.data-table th {
+    background-color: var(--color-surface);
+    color: var(--color-secondary);
+    font-weight: 700;
+}
+.data-table tr:hover {
+    background-color: rgba(230, 57, 70, 0.05);
+}
+.faq-item {
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--spacing-md);
+    overflow: hidden;
+}
+.faq-question {
+    padding: var(--spacing-md) var(--spacing-lg);
+    background-color: var(--color-surface);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+.faq-answer {
+    padding: var(--spacing-lg);
+    border-top: 1px solid var(--color-border);
+    display: none;
+}
+.faq-item.active .faq-answer {
+    display: block;
+}
+.faq-item.active .faq-question::after {
+    content: '▼';
+}
+.faq-question::after {
+    content: '▶';
+    color: var(--color-text-muted);
+    font-size: 0.75rem;
+}
+.guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+.guide-item {
+    padding: var(--spacing-lg);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+.footer {
+    margin-top: auto;
+    border-top: 1px solid var(--color-border);
+    padding: var(--spacing-xl);
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+}
+@media (max-width: 768px) {
+    :root {
+        --spacing-xl: 24px;
+        --spacing-xxl: 32px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .r-wrap-s4ur {
+        grid-template-columns: 1fr;
+        padding: var(--spacing-md);
+    }
+    .m-wr {
+        padding: var(--spacing-md);
+    }
+    .hero-section {
+        padding: var(--spacing-xxl) var(--spacing-md);
+    }
+    .nav-links {
+        justify-content: flex-start;
+    }
+    .data-table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+</style>
+</head>
+<body>
+<nav class="n-nav-f2uc">
+    <div class="m-wr flex-between">
+        <a href="#" style="color: var(--color-secondary); text-decoration: none; font-weight: 700;">아현 클럽 노트</a>
+        <div class="nav-links">
+            <a href="#">초보 가이드</a>
+            <a href="#" class="active">정보</a>
+            <a href="#">안전 수칙</a>
+            <a href="#">장르 분석</a>
+            <a href="#">FAQ</a>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 style="margin-bottom: var(--spacing-lg);">정보는 무기다. <span class="text-accent">감이 아닌 데이터로 움직여라.</span></h1>
+            <p style="font-size: 1.125rem; max-width: 600px; margin: 0 auto;">이 페이지는 '느낌'이나 '추천'이 아닌, 아현 클럽의 실제 구조와 패턴을 분석해 만든 지도다. 네가 여기 있는 것 자체가 이미 차별화의 시작이다.</p>
+            <div style="margin-top: var(--spacing-xl); display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+                <a href="#data-lens" class="btn btn-primary">데이터로 확인</a>
+                <a href="#toolkit" class="btn">도구 상자 열기</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-wr py-xl border-bottom" id="data-lens">
+        <h2 class="mb-lg">지역 데이터 <span class="text-accent">투시</span></h2>
+        <p class="mb-lg">아현 지역 클럽의 운영 패턴과 변수들을 정리했다. 여기서 네 전략이 시작된다.</p>
+        
+        <div class="n-card-ptn3 mb-lg">
+            <h3>기본 구조 분석</h3>
+            <table class="data-table mt-md">
+                <thead>
+                    <tr>
+                        <th>변수</th>
+                        <th>일반적 패턴</th>
+                        <th>초보 시사점</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>영업 시작</strong></td>
+                        <td>오후 10시 ~ 11시</td>
+                        <td>太早 도착은 '대기 시간' 전환. 피크 타임(12시~1시) 전 안착이 유리.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>인파 유형</strong></td>
+                        <td>금/토: 주로 20대 중후반. 평일: 변동 큼.</td>
+                        <td>평일은 관찰 시간, 주말은 경험 시간으로 접근.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>드레스 코드</strong></td>
+                        <td>텍스트 설명 없는 '무의식적 규칙'. 단, 뚜렷한 캐주얼/포멀 구분.</td>
+                        <td>극단적 캐주얼(트레이닝복)은 탈락. 깔끔한 포멀(수트)은 과잉. 그 사이가 정답.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>음악</strong></td>
+                        <td>장르 특화. 에너지 레벨이 급변.</td>
+                        <td>자기 음악 취향 1순위가 아님. '공간의 에너지'에 맞추는 적응력이 중요.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="n-card-ptn3">
+            <h3>시간대별 에너지 맵</h3>
+            <p class="mt-md">클럽은 하나의 공간이 아니라, 시간에 따라 완전히 다른 장소가 된다.</p>
+            <div class="guide-grid mt-lg">
+                <div class="guide-item">
+                    <h3 class="text-accent">22:00 - 23:30</h3>
+                    <p class="mt-sm">이수권 장악 시간. 주로 테이블 손님. 층간 이동이 자유로움. 관찰과 적응의 시간.</p>
+                </div>
+                <div class="guide-item">
+                    <h3 class="text-accent">23:30 - 01:00</h3>
+                    <p class="mt-sm">공간 채워짐. 일반 입장 손님 유입. 스탠딩 공간 경쟁 시작. 에너지 상승.</p>
+                </div>
+                <div class="guide-item">
+                    <h3 class="text-accent">01:00 - 02:30</h3>
+                    <p class="mt-sm">클라이맥스. 모든 층 꽉 참. 움직임 제한적. 음악 에너지 최고조. '버티기' 게임.</p>
+                </div>
+                <div class="guide-item">
+                    <h3 class="text-accent">02:30 - 04:00</h3>
+                    <p class="mt-sm">점진적 해소. 인파 감소. 1차 클라이맥스 이후의 여운. 대화 가능.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-wr py-xl" id="toolkit">
+        <h2 class="mb-lg">생존 도구 상자</h2>
+        <p class="mb-lg">감이 아닌, 실행 가능한 행동 지침. 이것만 지켜도 80%는 성공이다.</p>
+        
+        <div class="r-wrap-s4ur">
+            <div class="r-wrap-s4ur-item n-card-ptn3">
+                <div class="r-ico-vtu5">
+                    <span class="r-ico-vtu5-content">01</span>
+                </div>
+                <h3>진입 각도</h3>
+                <p>문 앞에서 30초 정지. 안쪽 분위기를 읽고 들어갈 때의 표정과 자세를 설정하라. 첫인상은 3초 안에 결정된다.</p>
+                <a href="#" class="btn mt-auto">자세한 행동 심리</a>
+            </div>
+            
+            <div class="r-wrap-s4ur-item n-card-ptn3">
+                <div class="r-ico-vtu5">
+                    <span class="r-ico-vtu5-content">02</span>
+                </div>
+                <h3>자리 선점 법칙</h3>
+                <p>스탠딩 최적 위치는 벽에서 2/3 지점. 뒤는 벽에 치이고, 앞은 에너지에 시달린다. 중간 지대가 생존 구역.</p>
+                <a href="#" class="btn mt-auto">공간 분석 도구</a>
+            </div>
+            
+            <div class="r-wrap-s4ur-item n-card-ptn3">
+                <div class="r-ico-vtu5">
+                    <span class="r-ico-vtu5-content">03</span>
+                </div>
+                <h3>시선 교환 시스템</h3>
+                <p>응시는 침범이다. 2초 시선 접촉 → 미소 → 시선 회피. 이것이 '관심 표현'의 전부다. 그 이상은 부담.</p>
+                <a href="#" class="btn mt-auto">비언어 커뮤니케이션</a>
+            </div>
+            
+            <div class="r-wrap-s4ur-item n-card-ptn3">
+                <div class="r-ico-vtu5">
+                    <span class="r-ico-vtu5-content">04</span>
+                </div>
+                <h3>음료 전략</h3>
+                <p>한 잔을 오래 마셔라. 빈 잔은 '관심 없음' 신호. 빈 잔을 채우는 행위는 '진행 의사'.</p>
+                <a href="#" class="btn mt-auto">주문 심리학</a>
+            </div>
+            
+            <div class="r-wrap-s4ur-item n-card-ptn3">
+                <div class="r-ico-vtu5">
+                    <span class="r-ico-vtu5-content">05</span>
+                </div>
+                <h3>대화 개시 문법</h3>
+                <p>"여기 분위기 좋네요"는 흔하다. "이 음악, 비트가 130BPM 정도 되는데 마음에 드네요"처럼 구체적이어야 기억에 남는다.</p>
+                <a href="#" class="btn mt-auto">대화 데이터 분석</a>
+            </div>
+            
+            <div class="r-wrap-s4ur-item n-card-ptn3">
+                <div class="r-ico-vtu5">
+                    <span class="r-ico-vtu5-content">06</span>
+                </div>
+                <h3>탈출 경로</h3>
+                <p>"화장실 다녀오겠습니다"는 핑계다. "이 음악 듣고 올게요"는 자연스러운 이동理由. 경로를 미리 파악해두라.</p>
+                <a href="#" class="btn mt-auto">상황별 탈출각</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-wr py-xl bg-surface">
+        <h2 class="mb-lg">자주 묻는 질문<span class="text-accent">에 대한 직설적 답변</span></h2>
+        <p class="mb-lg">솔직히 말하겠다. 이 질문들의 이면에 있는 진짜 고민을.</p>
+        
+        <div class="faq-item active">
+            <div class="faq-question">Q. 혼자 가도 괜찮은가? 왜 질문을 하는가?</div>
+            <div class="faq-answer">
+                <p>"혼자서도 잘 노나?"라는 질문이 아니라 "혼자가 유리한가?"를 물어보는 것이다. 대답은 '<strong>유리하다</strong>'. 혼자면 타협할 대상이 없다. 네 페이스대로 움직이고, 관찰하고, 선택할 수 있다. 단, '외로워 보이지 않는' 태도가 전제 조건이다.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q. 정장은 안 되나? 캐주얼이 정답인가?</div>
+            <div class="faq-answer">
+                <p>"정장"이 아니라 "수트"와 "캐주얼" 사이의 "<strong>세련된 캐주얼</strong>"이 정답이다. 깔끔한 블레이저(노타이)에 티셔츠, 또는 좋은 재질의 니트. 정장은 '면접'을 연상시키고, 캐주얼은 '무관심'을 연상시킨다. 그 사이의 뉘앙스를 잡아야 한다.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q. 음악 소리가 너무 크다. 어떻게 대화하나?</div>
+            <div class="faq-answer">
+                <p>"대화"를 기대하지 마라. "<strong>메시지</strong>"를 주고받아라. "이 음악 좋아요?"(Short) → "네, 취향이에요?"(Response) → 포인트를 잡아보세요(Selection). 음성이 아닌, 눈빛과 짧은 문장으로. 그게 클럽에서의 진짜 커뮤니케이션이다.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q. 거절당하면如何? 창피하지 않은가?</div>
+            <div class="faq-answer">
+                <p>"거절"은 결과일 뿐이다. "<strong>표현 방식</strong>"이 문제일 가능성이 90%다. "번호 줘"는 거절 유발 문장이다. "나중에 같이 마실 수 있으면 좋겠어요"는 수용 가능 문장이다. 표현을 바꾸면 결과가 달라진다. 창피함은 '자기 표현 실패'에서 온다, '거절'에서 오는 게 아니다.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q. 정말로 '데이터'가 중요한가? 느낌이 아니고?</div>
+            <div class="faq-answer">
+                <p>"느낌"은 변하고, "데이터"는 재사용된다. 이번 주말의 "느낌"은 다음 주말에 통하지 않을 수 있다. 하지만 "<strong>시간대별 에너지 패턴</strong>"과 "<strong>장르별 공간 특성</strong>"은 바뀌지 않는다. 데이터는 너에게 '예측력'을 준다. 예측이 가능한 사람만이 '자유롭게' 놀 수 있다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-wr py-xl border-bottom">
+        <h2 class="mb-lg">최종 <span class="text-accent">명령어</span></h2>
+        <div class="n-card-ptn3" style="font-size: 1.125rem; line-height: 1.8;">
+            <p>이 안내서를 읽었다는 것은, "<strong>준비된 자</strong>"라는 뜻이다.</p>
+            <p>감으로 들어가서 후회하는 '클럽 초보'가 되지 마라.</p>
+            <p>데이터를 무기로 장착하고, "<strong>전략적 즐거움</strong>"을 추구하는 '클럽 여행자'가 되어라.</p>
+            <p class="mt-lg text-muted">그리고 기억해라. 여기서 얻은 '정보'는 도구일 뿐이다. 진짜 게임은 "<strong>너의 태도</strong>"가 시작되는 그 순간부터다.</p>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="m-wr">
+        <p>© 2024 아현 클럽 노트. 모든 정보는 공개적 패턴 분석에 기반하며, 개인의 판단과 책임 하에 이용되어야 합니다.</p>
+        <p class="mt-sm">이 가이드는 데이터 기반 통찰을 제공하지만, 인간적인 접촉과 존중은 데이터로 측정할 수 없습니다.</p>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+        const item = question.parentElement;
+        const isActive = item.classList.contains('active');
+        
+        document.querySelectorAll('.faq-item').forEach(faqItem => {
+            faqItem.classList.remove('active');
+            faqItem.querySelector('.faq-answer').style.display = 'none';
+        });
+        
+        if (!isActive) {
+            item.classList.add('active');
+            item.querySelector('.faq-answer').style.display = 'block';
+        }
+    });
+});
+</script>
+</body>
+</html>
