@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ahyeon-club-note.nrb-apgujeong-guide.xyz/sitemap.xml
+Sitemap: https://ahyeon-club-note.nrb-apgujeong-guide.xyz/sitemap-pages.xml
